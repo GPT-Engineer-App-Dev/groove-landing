@@ -10,6 +10,9 @@ const Index = () => {
             The Rocking Band
           </Heading>
           <Text fontSize="xl">Join us on our epic tour across the globe!</Text>
+          <Button colorScheme="blue" mt={4}>
+            Learn More
+          </Button>
         </Box>
 
         <Box>
@@ -51,6 +54,9 @@ const Index = () => {
             <IconButton aria-label="Twitter" icon={<FaTwitter />} size="lg" />
             <IconButton aria-label="Instagram" icon={<FaInstagram />} size="lg" />
           </HStack>
+          <Button colorScheme="green" mt={4}>
+            Subscribe
+          </Button>
         </Box>
       </VStack>
     </Container>
